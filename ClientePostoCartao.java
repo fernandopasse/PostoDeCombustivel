@@ -5,9 +5,9 @@ package trabalho;
  * @author Fernando
  */
 public class ClientePostoCartao {
-    String nome;
-    long cpf;
-    int numeroDoCartao;
+    private String nome;
+    private long cpf;
+    private int numeroDoCartao;
 
     public ClientePostoCartao(String nome, long cpf, int numeroDoCartao){
         this.nome = nome;
